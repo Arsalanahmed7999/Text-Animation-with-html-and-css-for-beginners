@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    width:100vw;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    box-shadow: 2px 2px 3px white;
+    color: antiquewhite;
+}
+
+.dev{
+    color: rgb(79, 1, 1);
+    text-shadow: 2px 2px 5px white;
+    font-size: 70px;
+    animation: trans 0.5s ease-in infinite alternate-reverse;
+}
+.arsalan{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(79, 1, 1);
+    font-size: 70px;
+    animation: trans 0.5s ease-in 0.1s infinite alternate-reverse;
+}
+
+@keyframes trans {
+    0%{
+opacity: 0;
+    }
+    100%{
+opacity: 1;
+    }
+}
